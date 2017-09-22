@@ -17,6 +17,7 @@ RESULT=$(curl --get --silent --show-error \
     --data-urlencode "login=${USER_ID}" \
     --data-urlencode "psw=${PASSWORD}" \
     --data-urlencode "phones=${TO_NUMBER}" \
+    --data-urlencode "sender=${SENDER}" \
     --data-urlencode "mes=${SUBJECT}${NL}${MESSAGE}" \
     "${SMSC_URL}" 2>&1
 )
