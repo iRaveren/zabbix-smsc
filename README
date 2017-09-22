@@ -23,8 +23,8 @@ Installation steps (tested for Ubuntu 14.04)
     sudo chown root:zabbix /usr/local/etc/smsc/smsc.conf
     sudo chmod 640 /usr/local/etc/smsc/smsc.conf
 
-3. Specify your SMSC.ru user name and password in /usr/local/etc/smsc/smsc.conf
-(USER_ID and PASSWORD variables correspondingly).
+3. Specify your SMSC.ru user name, password and sender id in /usr/local/etc/smsc/smsc.conf
+(USER_ID, PASSWORD and SENDER variables correspondingly).
 
 4. Register the media type in Zabbix:
 
