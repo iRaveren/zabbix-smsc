@@ -3,7 +3,7 @@ SMSC.ru SMS alerting module for Zabbix
 Author: Igor A. Perminov <igor.a.perminov@gmail.com>
 License: GPL v2+
 
-Installation steps (tested for Ubuntu 14.04)
+Installation steps (tested for Ubuntu 14.04 and Debian 8.6 (jessie))
 
 0. Prerequisites:
 
